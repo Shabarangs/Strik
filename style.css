@@ -31,12 +31,6 @@ img {
   color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #000000;
-  color: white;
-}
-
 #C1 {
   text-align: center;
   font-size: 17px;
