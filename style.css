@@ -31,8 +31,20 @@ img {
   color: black;
 }
 
+.topnav a:active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.container {
+  width: 15%;
+  margin: auto;
+}
+
 #C1 {
-  text-align: center;
+  width: 10%;
+  margin: auto;
   font-size: 17px;
+  padding: 13px 10px;
   color: #ddd;
 }
