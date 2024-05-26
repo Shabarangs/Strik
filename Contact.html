@@ -5,23 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Strik,Strikke">
   <meta name="description" content="strikke">
-  <title>Kom i gang med at strikke</title>
+  <title>Contact Us</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="topnav">
-  <a class="active" href="index.html">Home</a>
+  <a href="index.html">Home</a>
   <a href="Toys.html">Toys</a>
-  <a href="Contact.html">Contact</a>
+  <a class="active" href="Contact.html">Contact</a>
   <a href="Info.html">Hvem er Susu?</a>
   <h1 id="C1">Susu's StrikShop</h1>
 </div>
 <div class="container">
-  <h2>Alt fra legetøj til <em>rigtig</em> personer</h2>
-  <p>Alt fra Salwa's hjerte</p>
-  <img src="Images/Strikke.jpeg" alt="Et billed af en der strikker">
-  <p class="overskrift">Jeg elsker at strikke</p>
-  <p>Og du kan følge med i hvad jeg laver her <em>på</em> denne <em>side</em></p>
+  <h2>Contact Us</h2>
+  <form id="contact-form" action="http://localhost:3000/send" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
 </div>
 <footer>
   <div class="footer-content">
@@ -33,4 +44,3 @@
 </footer>
 </body>
 </html>
-
